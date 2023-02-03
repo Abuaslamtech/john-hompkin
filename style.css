@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+header {
+  background-color: gray;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.top {
+  color: gray;
+  font-weight: 900;
+  text-align: center;
+}
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  gap: 2rem;
+}
+.text {
+  background-color: rgba(128, 128, 128, 0.3);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+main h3 {
+  text-align: center;
+}
+@media (min-width: 600px) {
+  main {
+    flex-direction: row;
+  }
+}
